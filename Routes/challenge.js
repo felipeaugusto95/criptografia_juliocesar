@@ -24,7 +24,7 @@ router.get('/', (req, res) => {
         }
 
         //criptografia do texto decifrado
-        let cr = crypto.createHash('sha1').update(decifrado).digest('base64');
+        let cr = crypto.createHash('sha1').update(decifrado).digest('hex');
 
         let obj = {
             numero_casas: numCasas,
