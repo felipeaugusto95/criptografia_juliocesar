@@ -1,6 +1,6 @@
 # criptografia_juliocesar
 
-Antes de explicar no que consiste o desafio neste código, vou citar abaixo as bibliotecas utilizadas que devem ser instaladas em seu projeto.
+Antes de explicar no que consiste o desafio neste código, vou citar abaixo as bibliotecas utilizadas que devem ser instaladas em seu projeto Node.js.
 
   - express       -> (npm install express)
   - body-parser   -> (npm install body-parser)
